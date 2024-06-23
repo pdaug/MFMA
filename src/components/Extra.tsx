@@ -7,7 +7,7 @@ type ExtraProps = {
 
 const Extra = function ({ photo, name, content, exclusive }: ExtraProps) {
   return (
-    <div className="relative w-[300px] flex flex-col gap-4 bg-gray-100 p-4 rounded-xl">
+    <div className="relative md:w-[300px] w-full flex flex-col gap-4 bg-gray-100 p-4 rounded-xl">
       { (exclusive) &&
         <div className="absolute -top-0 -left-2 -rotate-6 px-3 bg-green-life font-bold text-blue-mind rounded-lg animate-pulse"> Exclusivo </div>
       }
